@@ -1,0 +1,65 @@
+header{
+    height: 30vh;
+    width: 100vw;
+    background-color: #1D7418;
+    display: flex;
+}
+
+#foto{
+    height: 100%;
+}
+
+nav{
+    width: 100%;
+    padding: 10px;
+}
+
+.principal{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.redesSociais{
+display: flex;
+justify-content: space-around;
+padding-top: 30px;
+}
+
+.linkedin{
+    background-color: #fafafa;
+    height: 60px;
+    width: 183px;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.linkedin a{
+    font-size: 20px;
+}
+
+.linkedin img{
+    position: relative;
+    right: 25px;
+    top: 10px;
+}
+
+.github{
+    background-color: #2F333C;
+    height: 60px;
+    width: 183px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.github img{
+    width: 48px;
+}

@@ -1,5 +1,35 @@
 main{
-    height: 1000px;
     width: 100vw;
     background-color: #C5E477;
 }
+
+#apresentar{
+    height: 800px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao{
+    width: 1400px;
+    height: 450px;
+    background-color: #88B345;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.apresentacao h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.apresentacao p{
+    font-size: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #fafafa;
+}
+
+/*próxima sessão*/
+
